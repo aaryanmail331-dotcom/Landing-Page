@@ -70,4 +70,18 @@
     </footer>
 
 </body>
+    <script>
+    function showTiers(city) {
+
+        // Get the selected city section
+        let section = document.getElementById(city);
+
+        // Show or hide the tiers
+        if (section.style.display === "block") {
+            section.style.display = "none";
+        } else {
+            section.style.display = "block";
+        }
+    }
+</script>
 </html>
